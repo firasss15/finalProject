@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+
+
+
+header {
+    background-color:#f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px ;
+}
+section {
+    padding: 4rem 0 2rem;
+}
+.head{
+    text-decoration: none;
+    color: blueviolet;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    margin-right: 500px;
+}
+
+.nav a{
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.nav a:hover , .nav .active {
+    color: var(--main-color);
+    border-bottom: 3px solid var(--main-color);
+}
+.head span{
+    color: #483D8B;
+}
+.one{
+    max-width: 1550px;
+    margin-bottom: 3px;
+    width: 100%;
+    min-height: 640px;
+    display: flex;
+    align-items: center;
+    background: url(https://www.mercedes-benz.com/en/vehicles/passenger-cars/eqs-suv/_jcr_content/root/video/image/MQ6-0-image-20220419120606/00-mercedes-benz-eqs-suv-2560x1440.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+
+}
+.textone{
+    margin-left: 100px;
+    font-size: 24px;
+}
+.btn{
+    margin: 90px 40px;
+    padding: 10px;
+    color: black;
+    background-color: #f0f0f0;
+    text-decoration: none;
+    border-radius: 5px;
+    position: absolute;
+}
+
+
+
+.two{
+    max-width: 1550px;
+    margin-bottom: 3px;
+    width: 100%;
+    min-height: 640px;
+    display: flex;
+    align-items: center;
+    background: url(https://www.mercedes-benz.com/en/vehicles/passenger-cars/mercedes-maybach/project-maybach/_jcr_content/root/fullscreenstage/image/MQ7-0-image-20220407143121/mercedes-maybach-project-maybach-stage-14167x6000-04-2022.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+
+}
+.texttwo{
+    margin-left: 100px;
+    font-size: 24px;
+}   
+
+.three {
+    max-width: 1550px;
+    margin-bottom: 3px;
+    width: 100%;
+    min-height: 640px;
+    display: flex;
+    align-items: center;
+    
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+}
+    #myVideo{
+        width: 100%;
+        
+        margin-top:0px;
+    }
+    .p1{
+        position: absolute;
+        margin: -550px 100px ;
+        font-size: 24px;
+        color:white;
+    }
+    .titre1{
+        position: absolute;
+        margin: 150px 100px;
+        color: white;
+        font-size: 44px;
+    
+    }
+
+    .btn1{
+        margin: 300px 120px;
+        padding: 10px;
+        color: black;
+        background-color: #f0f0f0;
+        text-decoration: none;
+        border-radius: 5px;
+        position: absolute;
+        font-size: 20px;
+    }
+    
+   
+.bt{
+ 
+
+    color: black;
+    background-color: #f0f0f0;
+    text-decoration: none;
+    border-radius: 5px;
+    position: absolute;
+    font-size: 20px;
+    margin:20px ;
+    height: 50px;
+    width: 170px;
+     }
